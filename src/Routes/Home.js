@@ -70,8 +70,8 @@ const Home = () => {
 
 
     <div>
-      <h1 className='head'>
-        Popular Services
+      <h1 style={{fontWeight:"400"}}>
+        Trending <span style={{fontWeight:"900"}}>Business</span>
       </h1>
     </div>
 
@@ -154,6 +154,12 @@ const Home = () => {
       </CardActions>
     </Card>
 
+    </div>
+
+    <div className='head'>
+      <h1 style={{fontStyle:"italic"}}>
+        Recently Posted Jobs
+      </h1>
     </div>
 </>
   )
