@@ -3,3 +3,35 @@
     height: 90lvh;
     /* object-fit: cover; */
 }
+
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card_inner{
+    border-radius: 10px;
+    height: 35lvh;
+    width: 20lvb;
+    cursor: pointer;
+}
+
+.icon{
+    margin-top: 95px;
+    height:15lvh ;
+    width: 20lvh;
+    cursor: pointer;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
